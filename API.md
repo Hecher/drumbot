@@ -18,7 +18,8 @@
   { "name": "botorik" },
   { "name": "swoop" },
   { "name": "schmaltz" },
-  { "name": "bouncy" }
+  { "name": "bouncy" },
+  { "name": "shpack" }
 ]
 ```
 
@@ -50,6 +51,29 @@
     {
       "instrument": "kick",
       "steps": [ 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 ]
+    }
+  ]
+}
+{
+  "name": "shpack",
+  "stepCount": 16,
+  "beatsPerMinute": 92,
+  "tracks": [
+    {
+      "instrument": "hinat",
+      "steps": [ 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0 ]
+    },
+    {
+      "instrument": "clap",
+      "steps": [ 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0 ]
+    },
+    {
+      "instrument": "cowbell",
+      "steps": [ 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1 ]
+    },
+    {
+      "instrument": "kick",
+      "steps": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
     }
   ]
 }
